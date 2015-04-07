@@ -1,0 +1,34 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/beijing"
+    tools:context=".MainActivity" >
+
+	<RelativeLayout
+	    android:id="@+id/wordRE"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentLeft="true"
+	    android:layout_alignParentTop="true"
+	    android:layout_marginLeft="30dp"
+	    android:layout_marginTop="80dp" >
+	</RelativeLayout>
+
+	<Button
+	    android:id="@+id/mainActivityBut"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentBottom="true"
+	    android:layout_centerHorizontal="true"
+	    android:layout_marginBottom="120dp"
+	    android:onClick="openMainActivity"
+	    android:text="@string/mainActivityButStr" 
+	    android:textSize="40sp"/>
+		
+</RelativeLayout>

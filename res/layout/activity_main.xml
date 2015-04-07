@@ -1,0 +1,93 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/beijing"
+    tools:context=".MainActivity" >
+   
+
+    <TextView
+        android:id="@+id/store"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        
+        android:textStyle="bold" 
+        android:textSize="65sp" />
+
+    <TextView
+        android:id="@+id/gameOverStoreInt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/upbird"
+        android:layout_below="@+id/gameOverStoreString"
+        android:layout_marginTop="29dp"
+        
+
+        android:textSize="65sp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:onClick="openSetActivity"
+        android:text="@string/setActivity" />
+
+    <Button
+        android:id="@+id/resetStore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button1"
+        android:layout_alignBottom="@+id/button1"
+        android:layout_alignRight="@+id/upbird"
+        android:text="@string/resetStore" />
+
+    <Button
+        android:id="@+id/upbird"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="26dp"
+         android:textSize="40sp" 
+         android:text="@string/birdUp" 
+        />
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/upbird"
+        android:layout_alignParentLeft="true"
+        android:text="@string/start"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/resetStore"
+        android:layout_alignBottom="@+id/resetStore"
+        android:layout_alignRight="@+id/start"
+        android:text="@string/reset" 
+        android:onClick="reset"/>
+
+    <TextView
+        android:id="@+id/gameOverStoreString"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/gameOverStoreInt"
+        android:layout_below="@+id/store"
+        
+        android:textSize="35sp" />
+
+</RelativeLayout>

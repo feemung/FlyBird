@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceScreen android:title="小鸟相关设置" android:summary="时间单位为毫秒，距离为dp" android:key="bird">
+        <EditTextPreference android:key="bird_Time" android:title="每帆图像移动的时间间隔" android:defaultValue="10"/>
+        <EditTextPreference android:key="bird_DownMove" android:title="每单位时间下落的距离" android:defaultValue="2"/>
+        
+        <EditTextPreference android:key="bird_UpMove" android:title="每单位时间上升的距离" android:defaultValue="1"/>
+        <EditTextPreference android:key="bird_UpTimes" android:title="每次单击上升按钮后上升的次数" android:defaultValue="50"/>
+        <EditTextPreference android:key="bird_StartX" android:title="小鸟初始位置的X坐标（以左上角为原点）" android:defaultValue="100"/>
+        <EditTextPreference android:key="bird_StartY" android:title="小鸟初始位置的Y坐标（以左上角为原点）" android:defaultValue="150"/>
+    </PreferenceScreen>
+    <PreferenceScreen android:title="障碍物相关设置" android:summary="时间单位为毫秒，距离为dp" android:key="zhu">
+        <EditTextPreference android:key="zhu_Time" android:title="每帆图像移动的时间间隔" android:defaultValue="16"/>
+        <EditTextPreference android:key="zhu_Move" android:title="每单位时间移动的距离" android:defaultValue="2"/>
+        <EditTextPreference android:key="zhu_YY" android:title="上下障碍物的距离间隔" android:defaultValue="183"/>
+        <CheckBoxPreference />
+      
+    </PreferenceScreen>
+
+</PreferenceScreen>
