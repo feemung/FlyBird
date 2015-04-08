@@ -1,5 +1,5 @@
 # FlyBird
-![image](https://github.com/feemung/FlyBird/master/mainActivity.png)
+![image](https://github.com/feemung/FlyBird/blob/master/mainActivity.png)
 ![github]https://github.com/feemung/FlyBird/master/mainActivity.png "github") 
 
 # 此程序是由gdk编码
