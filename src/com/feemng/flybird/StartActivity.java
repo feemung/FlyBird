@@ -27,6 +27,10 @@ public class StartActivity extends Activity{
 		
         
 	}
+	public void aboutBut(View view){
+		Intent intent=new Intent(this,AboutActivity.class);
+		this.startActivity(intent);
+	}
 	
 	
 

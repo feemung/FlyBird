@@ -33,22 +33,30 @@ public final class R {
         public static final int zhub=0x7f020006;
     }
     public static final class id {
-        public static final int action_settings=0x7f0a000b;
-        public static final int button1=0x7f0a0005;
-        public static final int button2=0x7f0a0008;
-        public static final int gameOverStoreInt=0x7f0a0002;
-        public static final int gameOverStoreString=0x7f0a0004;
-        public static final int mainActivityBut=0x7f0a000a;
-        public static final int resetStore=0x7f0a0006;
+        public static final int action_settings=0x7f0a0012;
+        public static final int button1=0x7f0a000c;
+        public static final int button2=0x7f0a000f;
+        public static final int gameOverStoreInt=0x7f0a0009;
+        public static final int gameOverStoreString=0x7f0a000b;
+        public static final int mainActivityBut=0x7f0a0011;
+        public static final int resetStore=0x7f0a000d;
         public static final int root=0x7f0a0000;
-        public static final int start=0x7f0a0007;
-        public static final int store=0x7f0a0001;
-        public static final int upbird=0x7f0a0003;
-        public static final int wordRE=0x7f0a0009;
+        public static final int start=0x7f0a000e;
+        public static final int store=0x7f0a0008;
+        public static final int textView10=0x7f0a0001;
+        public static final int textView11=0x7f0a0003;
+        public static final int textView12=0x7f0a0004;
+        public static final int textView13=0x7f0a0007;
+        public static final int textView14=0x7f0a0002;
+        public static final int textView15=0x7f0a0005;
+        public static final int textView16=0x7f0a0006;
+        public static final int upbird=0x7f0a000a;
+        public static final int wordRE=0x7f0a0010;
     }
     public static final class layout {
-        public static final int activity_main=0x7f030000;
-        public static final int activity_start=0x7f030001;
+        public static final int activity_about=0x7f030000;
+        public static final int activity_main=0x7f030001;
+        public static final int activity_start=0x7f030002;
     }
     public static final class menu {
         public static final int main=0x7f090000;

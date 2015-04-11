@@ -210,16 +210,16 @@ public class MainActivity extends Activity{
     {  
         if (keyCode == KeyEvent.KEYCODE_BACK )  
         {  
-            // �����˳��Ի���  
+            // 锟斤拷锟斤拷锟剿筹拷锟皆伙拷锟斤拷  
             AlertDialog isExit = new AlertDialog.Builder(this).create();  
-            // ���öԻ������  
-            isExit.setTitle("确定退出游戏吗ʾ");  
-            // ���öԻ�����Ϣ  
+            // 锟斤拷锟矫对伙拷锟斤拷锟斤拷锟�  
+            isExit.setTitle("你确定退出游戏吗");  
+            // 锟斤拷锟矫对伙拷锟斤拷锟斤拷息  
             isExit.setMessage(" ");  
-            // ���ѡ��ť��ע�����  
+            // 锟斤拷锟窖★拷锟脚ワ拷锟阶拷锟斤拷锟斤拷  
             isExit.setButton("确定", listener);  
             isExit.setButton2("取消", listener);  
-            // ��ʾ�Ի���  
+            // 锟斤拷示锟皆伙拷锟斤拷  
             isExit.show();  
   
         }  
@@ -233,10 +233,10 @@ public class MainActivity extends Activity{
         {  
             switch (which)  
             {  
-            case AlertDialog.BUTTON_POSITIVE:// "ȷ��"��ť�˳�����  
+            case AlertDialog.BUTTON_POSITIVE:// "确锟斤拷"锟斤拷钮锟剿筹拷锟斤拷锟斤拷  
                 finish();  
                 break;  
-            case AlertDialog.BUTTON_NEGATIVE:// "ȡ��"�ڶ�����ťȡ���Ի���  
+            case AlertDialog.BUTTON_NEGATIVE:// "取锟斤拷"锟节讹拷锟斤拷锟斤拷钮取锟斤拷锟皆伙拷锟斤拷  
                 break;  
             default:  
                 break;  

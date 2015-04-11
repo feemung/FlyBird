@@ -30,5 +30,16 @@
 	    android:onClick="openMainActivity"
 	    android:text="@string/mainActivityButStr" 
 	    android:textSize="40sp"/>
+
+	<Button
+	    android:id="@+id/button1"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentBottom="true"
+	    android:layout_alignParentRight="true"
+	    android:layout_marginBottom="26dp"
+	    android:layout_marginRight="44dp"
+	     android:onClick="aboutBut"
+	    android:text="关于" />
 		
 </RelativeLayout>
